@@ -1,60 +1,83 @@
 # Hi, I'm An 👋
 
-I'm an IT graduate from the University of Wollongong, currently building my career toward **Data Engineering**.
+I'm a Bachelor of IT graduate from the University of Wollongong, Australia, building my career in **Data Engineering**.
 
-I enjoy turning raw data into structured, usable datasets and building practical data pipelines. My current focus is strengthening my skills in **SQL, Python, data modelling, ETL/ELT, dbt, Airflow, PostgreSQL, and AWS** through hands-on projects.
+I enjoy designing data pipelines that turn raw, imperfect data into reliable, analytics-ready datasets. My interests include **SQL, Python, data modelling, ETL/ELT, cloud data platforms, orchestration, and data quality**.
 
-## 🛠 Tech Stack
+My GitHub showcases hands-on projects exploring the engineering decisions behind data ingestion, transformation, testing, and deployment.
 
-**Data & Programming**  
-Python • SQL • PostgreSQL • pandas • dbt
+## 🛠️ Tech Stack
 
-**Data Engineering**  
-ETL/ELT • Data Pipelines • Data Modelling • Apache Airflow • Data Quality
+**Languages & Data Processing**  
+Python · SQL · pandas · PostgreSQL
+
+**Data Engineering & Analytics**  
+dbt · Snowflake · Apache Airflow · Dimensional Modelling · ETL/ELT · Data Quality
 
 **Cloud & Development**  
-AWS • Docker • Git/GitHub • FastAPI • Streamlit
+AWS (ECS, ECR, S3, EventBridge, CloudWatch) · Docker · GitHub Actions · Git · FastAPI · Streamlit
 
 ## 🚀 Featured Projects
 
+### 🏠 [Student Rental Intelligence](https://github.com/AnTran289/student-rental-intelligence)
+
+A Data Engineering project exploring advertised student rental prices in Wollongong, Australia.
+
+Designed a data pipeline to ingest and validate rental observations, apply business rules, deduplicate listings, and produce analytics-ready datasets using dimensional modelling.
+
+**Engineering highlights:**
+- Python-based ingestion with schema validation and data quality checks.
+- dbt staging, intermediate, fact, dimension, and analytical models.
+- Deduplication using business keys and latest-record selection.
+- Automated tests and data quality classification.
+- Developed with Snowflake and subsequently migrated to local PostgreSQL.
+
+**Tech:** `Python` `SQL` `PostgreSQL` `Snowflake` `dbt` `Docker` `pytest`
+
+---
+
 ### 🌧️ [VULU StormWatch](https://github.com/AnTran289/vulu-stormwatch)
 
-Weather ETL and rainfall-risk service built for integration with the VULU community platform.
+A cloud-deployed weather data pipeline and rainfall-risk service developed for integration with the VULU community platform.
 
-The project extracts and transforms weather forecasts, persists hourly and daily data in PostgreSQL, calculates rainfall-based risk indicators, and exposes results through a read-only FastAPI service.
+Processes weather forecasts, stores structured observations, calculates rainfall-based risk indicators, and exposes results through a read-only API.
 
-**Tech:** `Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Docker` `GitHub Actions` `AWS ECS/ECR/S3`
+**Engineering highlights:**
+- Python ingestion and transformation workflows.
+- PostgreSQL persistence and API-based data access.
+- AWS container deployment and scheduled cloud workflows.
+- Automated testing and CI/CD with GitHub Actions.
+
+**Tech:** `Python` `PostgreSQL` `FastAPI` `Docker` `AWS` `GitHub Actions`
 
 ---
 
 ### 🌦️ [StormWatch Vietnam](https://github.com/AnTran289/StormWatch-Vietnam)
 
-A Data Engineering portfolio project that transforms hourly weather forecasts into analytics-ready rainfall, storm, and flood-risk datasets across Vietnam.
+An end-to-end weather Data Engineering project transforming forecast data into analytical datasets for rainfall and storm-risk monitoring.
 
-The pipeline uses Airflow for orchestration, PostgreSQL as the warehouse, and dbt for staged transformations, testing, rolling rainfall calculations, and reporting marts.
+Uses PostgreSQL, dbt transformations, Airflow orchestration, and Streamlit reporting.
 
-**Tech:** `Python` `SQL` `PostgreSQL` `Airflow` `dbt` `Docker` `Streamlit`
+**Tech:** `Python` `SQL` `PostgreSQL` `Apache Airflow` `dbt` `Docker` `Streamlit`
 
 ---
 
 ### 🛒 [Supermarket Price Intelligence Pipeline](https://github.com/AnTran289/supermarket-price-pipeline)
 
-An end-to-end data pipeline for validating, transforming, and analysing supermarket pricing data from Coles, Woolworths, and Aldi.
+A data pipeline for validating, transforming, and analysing supermarket pricing data.
 
-The project uses PostgreSQL Silver/Gold layers and dbt transformations to produce analytics-ready marts for price comparison, promotion analysis, unit pricing, and data quality reporting.
+Uses PostgreSQL and dbt to build analytics-ready datasets supporting price comparisons, promotions, and data quality analysis.
 
 **Tech:** `Python` `SQL` `PostgreSQL` `dbt` `pandas` `Docker` `Streamlit`
 
-## 🌱 Currently Learning
+## 📚 Currently Focusing On
 
-I'm currently deepening my knowledge of:
+- Advanced SQL and technical interview preparation
+- Data pipeline orchestration and reliability
+- Data modelling and warehouse architecture
+- Distributed processing with PySpark
+- Lakehouse architecture and Databricks fundamentals
 
-- Data modelling and warehouse design
-- Advanced SQL
-- dbt development and testing
-- AWS data engineering
-- Production ETL/ELT patterns
+## 📫 Connect With Me
 
-## 📫 Connect with Me
-
-[LinkedIn](https://www.linkedin.com/in/khaantrann/) • [GitHub](https://github.com/AnTran289)
+[LinkedIn](https://www.linkedin.com/in/khaantrann/) · [GitHub](https://github.com/AnTran289)
