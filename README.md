@@ -26,13 +26,14 @@ A Data Engineering project exploring advertised student rental prices in Wollong
 Designed a data pipeline to ingest and validate rental observations, apply business rules, deduplicate listings, and produce analytics-ready datasets using dimensional modelling.
 
 **Engineering highlights:**
-- Python-based ingestion with schema validation and data quality checks.
+- Apache Airflow 3 DAG orchestrating CSV validation → transactional Python ingestion → dbt build → batch reconciliation.
+- Python-based ingestion with schema validation, idempotent replay handling, and data quality checks.
 - dbt staging, intermediate, fact, dimension, and analytical models.
 - Deduplication using business keys and latest-record selection.
-- Automated tests and data quality classification.
+- Verified fresh and replay DAG runs (all four tasks successful in each); 44 dbt tests and 43 Python unit tests passed.
 - Developed with Snowflake and subsequently migrated to local PostgreSQL.
 
-**Tech:** `Python` `SQL` `PostgreSQL` `Snowflake` `dbt` `Docker` `pytest`
+**Tech:** `Python` `SQL` `PostgreSQL` `Apache Airflow` `Snowflake` `dbt` `Docker` `pytest`
 
 ---
 
